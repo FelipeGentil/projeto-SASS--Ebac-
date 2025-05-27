@@ -1,0 +1,13 @@
+@use 'vars';
+.cars {
+    h2 {
+        color: vars.$color-02;
+    }
+    li {
+        color: vars.$color-04;
+
+        a {
+            background-color: vars.$color-default;
+        }
+    }
+}

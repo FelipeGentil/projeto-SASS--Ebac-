@@ -1,0 +1,76 @@
+@use 'vars';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: vars.$font-family-default;
+}
+
+
+html {
+    font-size: 62.5%;
+}
+
+div, 
+p {
+    display: block;
+}
+
+header,
+section,
+footer {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    padding: 4rem 0;
+}
+
+section {
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+body {
+    font-family: vars.$font-family-default;
+    font-size: vars.$font-small;
+    color: vars.$color-default;
+}
+
+p {
+    color: vars.$color-01;
+    font-size: vars.$font-normal;
+    margin-bottom: vars.$mb;
+    text-align: vars.$align;
+}
+
+h1 {
+    color: vars.$color-01;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: vars.$font-big;
+    margin-top: vars.$mt-02;
+}
+
+h2 {
+    color: vars.$color-02;
+    font-size: vars.$font-medium;
+}
+
+h3 {
+    color: vars.$color-03;
+    font-size: vars.$font-normal;
+}
+
+header,
+footer {
+    background-color: vars.$bg-color
+}

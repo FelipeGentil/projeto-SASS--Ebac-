@@ -1,0 +1,29 @@
+@use 'vars';
+
+.destack {
+    background-color: vars.$color-04;
+    padding: vars.$space-default;
+    h1 {
+        color: vars.$color-03;
+        float: left;
+        font-size: vars.$font-big;
+        margin-top: 0;
+    }
+    h2 {
+        float: left;
+        font-size: vars.$font-small;
+        margin-left: vars.$space-default;
+        margin-top: vars.$mt;
+    }
+    img {
+        width: 100%;
+        height: auto;
+        margin: vars.$space-default auto;
+    }
+    p {
+        font-size: vars.$font-normal;
+        color: vars.$color-01;
+        padding: 2rem 0;
+        width: 100%;
+    }
+}

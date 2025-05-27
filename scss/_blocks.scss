@@ -1,0 +1,47 @@
+@use 'vars';
+
+.blocks {
+
+    padding: 3rem 0;
+
+    h2 {
+        color:vars.$color-01;
+    }
+
+    ul {
+        list-style-type: none;
+        font-size: vars.$font-small;
+        display: flex;
+        justify-content: space-between;
+        height: 250px;
+        padding: 1rem 0;
+        width: 100%;
+    }
+
+    li {
+        color: vars.$color-02;
+        display: block;
+        margin: vars.$space-default auto;
+        width: 30%;
+        
+        .img-container {
+            display: block;
+            height: 200px;
+            overflow: hidden;
+            width: 100%;
+        }
+
+        a {
+            background-color: vars.$color-01;
+            border-radius: 5px;
+            color: white;
+            display: block;
+            font-size: vars.$font-medium;
+            margin: vars.$mt-02 auto vars.$mb;
+            padding: 4px 8px;
+            text-align: center;
+            text-decoration: none;
+        }
+    }
+
+}
