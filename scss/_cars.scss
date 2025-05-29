@@ -1,12 +1,13 @@
 @use 'vars';
+
 .cars {
-    h2 {
+    &__title {
         color: vars.$color-02;
     }
-    li {
+        &__list {
         color: vars.$color-04;
 
-        a {
+        &__item {
             background-color: vars.$color-default;
         }
     }

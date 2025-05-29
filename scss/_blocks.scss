@@ -4,11 +4,11 @@
 
     padding: 3rem 0;
 
-    h2 {
+    &__title{
         color:vars.$color-01;
     }
 
-    ul {
+    &__list {
         list-style-type: none;
         font-size: vars.$font-small;
         display: flex;
@@ -18,7 +18,7 @@
         width: 100%;
     }
 
-    li {
+    &__item {
         color: vars.$color-02;
         display: block;
         margin: vars.$space-default auto;
@@ -31,7 +31,7 @@
             width: 100%;
         }
 
-        a {
+        &__img-container {
             background-color: vars.$color-01;
             border-radius: 5px;
             color: white;
